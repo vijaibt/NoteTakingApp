@@ -1,8 +1,17 @@
 # Ignore frontend folders
 frontend/
-temp-frontend/
+
 
 # Common files to ignore
 node_modules/
 .DS_Store
 .env
+
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.cpython-311.pyc
